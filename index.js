@@ -4,7 +4,7 @@ const querySelectOne = (attr_name) => document.querySelector(attr_name);
 // humberger menu ==============================================================
 const humberger_menu = querySelectOne(".hambergerMenu");
 const nav_container = querySelectOne(".navigationContainer");
-let hasToogleClass = false;
+let hasToogleClass = true;
 humberger_menu.addEventListener("click", () => {
   hasToogleClass = !hasToogleClass;
   hasToogleClass
